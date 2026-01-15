@@ -13,8 +13,9 @@ branches to simulate merge conflicts.
 import math
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
+
 def calculate_hypotenuse(side_a, side_b):
-    result = side_a + side_b  
+    result = math.sqrt(side_a **2 + side_b **2) 
     return result
 
 # This method contains a bug. In your commit note, state the bug and how you fixed it
