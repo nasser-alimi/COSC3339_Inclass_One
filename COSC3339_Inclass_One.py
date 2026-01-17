@@ -1,6 +1,6 @@
-# YOUR NAME HERE
-# YOUR SECTION HERE
-# DATE OF EDITING HERE
+# Abdulnnasser Alimi
+# Section 01
+# 1/16/2026
 
 """
 ASSIGNMENT: INTRODUCTION TO MERGING
@@ -77,6 +77,16 @@ def input_checker(text_value):
 
   return valud_imput
 
+    valid_input = True 
+    
+    if text_value is None:
+        valid_input = False
+    
+    if text_value == "":
+        valid_input = False
+        
+    return valid_input
+    
 def process_user_data(text_value):
   return _validate_imput(text_value)
 
