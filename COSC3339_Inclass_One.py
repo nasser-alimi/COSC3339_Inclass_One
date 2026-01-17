@@ -74,7 +74,9 @@ def input_checker(text_value):
         valud_imput = False
         
     return valud_imput
-
+    
+def test(text_value):
+    return _validate_imput(text_value)
 
 def main():
     print("--- STARTING TESTS ---")
@@ -111,10 +113,10 @@ def main():
     
     # print("--- SCENARIO 3 TEST ---")
     # user_input = "This is some fake user data"
-    # if process_user_data(user_input):
-    #     print("Data processed successfully")
-    # else:
-    #     print("Data invalid")
+    if process_user_data(user_input):
+        print("Data processed successfully")
+    else:
+        print("Data invalid")
     
     print("\n--- END OF TESTS ---")
 
