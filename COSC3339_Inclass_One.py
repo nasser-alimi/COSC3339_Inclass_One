@@ -74,7 +74,9 @@ def _validate_imput(text_value):
         valud_imput = False
         
     return valud_imput
-
+    
+def test(text_value):
+    return _validate_imput(text_value)
 
 def main():
     print("--- STARTING TESTS ---")
