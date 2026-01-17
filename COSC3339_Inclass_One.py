@@ -75,7 +75,7 @@ def _validate_imput(text_value):
         
     return valud_imput
     
-def test(text_value):
+def process_user_data(text_value):
     return _validate_imput(text_value)
 
 def main():
